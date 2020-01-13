@@ -1,17 +1,134 @@
 /*
 ================================
-BASES
+Bases
 ================================
 */
 
 body {
-    color: #838282;
-    font-size: 14px;
-    font-family: "Rokkitt", sans-serif;
-    line-height: 1.57142857143;
+  background-color: #efefef;
+  color: #838282;
+  font-size: 14px;
+  font-family: "Rokkitt", sans-serif;
+  line-height: 1.57142857143;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    color: #f87f12;
-    line-height: 1,1;
+  color: #f87f12;
+  line-height: 1, 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*
+================================
+Grid
+================================
+*/
+
+.l-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*
+================================
+Header
+================================
+*/
+
+.header {
+  height: 480px;
+}
+
+.header-logo {
+  display: block;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: -22px;
+}
+
+.header-break {
+  border: none;
+  box-shadow: 0 15px 20px -18px #d4d2d2;
+  height: 50px;
+  margin: -26px auto 10px;
+  width: 100%;
+}
+
+/*
+================================
+Footer
+================================
+*/
+
+.footer {
+  font-family: "Trebuchet MS",
+    sans-serif;
+  font-size: 10px;
+  line-height: 1.6;
+  padding-bottom: 35px;
+}
+
+.footer-break {
+  border: none;
+  box-shadow: 0 15px 20px -18px #d4d2d2;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.footer-menu {
+  float: left;
+}
+
+.footer-menu-item::after {
+  margin-left: 3px;
+  content: '|';
+}
+
+.footer-menu-item:last-child::after {
+  display: none;
+}
+
+.footer-notice {
+  margin: 0 auto;
+  padding-left: 305px;
+
+}
+
+.footer-icon {
+  float: right;
+  margin-top: -31px;
+}
+
+.icon {
+  font-size: 3em;
+  cursor: pointer;
+  margin-right: 65px;
+}
+
+.icon:last-child {
+  margin-right: 0;
+}
+
+/*
+================================
+Navigation
+================================
+*/
+
+.menu {
+  color: #393737;
+  float: right;
+  margin-top: 60px;
+  font-size: 16px;
+}
+
+.menu-item {
+  padding-left: 65px;
 }
