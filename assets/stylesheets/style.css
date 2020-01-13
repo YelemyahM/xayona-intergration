@@ -60,6 +60,10 @@ Header
   width: 100%;
 }
 
+nav .is-active:hover {
+  color: #f88f31;
+}
+
 /*
 ================================
 Footer
