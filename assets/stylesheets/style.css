@@ -29,6 +29,11 @@ img {
   cursor: pointer;
 }
 
+li {
+  list-style: none;
+  color: #f87f12;
+}
+
 /*
 ================================
 Grid
@@ -38,6 +43,11 @@ Grid
 .l-container {
   width: 960px;
   margin: 0 auto;
+}
+
+.b-container {
+  margin: 0 auto;
+  width: 540px;
 }
 
 /*
@@ -105,7 +115,7 @@ Footer
 
 .footer-notice {
   margin: 0 auto;
-  padding-left: 305px;
+  padding-left: 340px;
 
 }
 
@@ -117,7 +127,7 @@ Footer
 .icon {
   font-size: 3em;
   cursor: pointer;
-  margin-right: 65px;
+  margin-right: 50px;
 }
 
 .icon:last-child {
@@ -139,6 +149,11 @@ Navigation
 
 .menu-item {
   padding-left: 65px;
+}
+
+li a{
+  padding: 4px;
+  float: left;
 }
 
 /*
@@ -204,7 +219,6 @@ Section
 
 .main {
   overflow: auto;
-  padding-bottom: 35px;
 }
 
 .main-break {
