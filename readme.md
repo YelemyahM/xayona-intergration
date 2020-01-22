@@ -1,3 +1,3 @@
-# Integration of a model
+# Integration of a mock-up
 
-I based myself on the model which you can find on the following link : https://tinyurl.com/wrfyozp
+You can find the mock-up on the following link : https://tinyurl.com/wrfyozp
